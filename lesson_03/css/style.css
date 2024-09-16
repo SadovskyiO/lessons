@@ -1,0 +1,56 @@
+/*скидаення стилів по замовчуванню*/
+@import url("reset.css");
+/*скидання стилів по замовчуванню*/
+
+* {
+	color: red;
+}
+
+p {
+	color: lawngreen;
+}
+
+.big-title {
+	color: blue;
+}
+
+#faune {
+	color: green;
+}
+
+[class*="ss"] {
+	color: aqua;
+}
+
+p.test {
+	color: blue;
+}
+
+.subtitle3,
+li {
+	color: rgb(20, 225, 88);
+}
+
+.block2 h2 {
+	color: rgb(23, 232, 8);
+}
+
+.list-header .item-header {
+	color: rgb(125, 125, 231);
+}
+
+.text * {
+	color: rgb(6, 208, 63);
+}
+
+.block2>span {
+	color: rgb(6, 147, 137);
+}
+
+.lesson~p {
+	color: rgb(41, 16, 144);
+}
+
+.article+p {
+	color: yellowgreen;
+}
